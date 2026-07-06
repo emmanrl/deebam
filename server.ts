@@ -775,3 +775,5 @@ async function startServer() {
 }
 
 startServer();
+// At the bottom of your server.ts file
+export default app;
