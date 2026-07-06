@@ -1,0 +1,6 @@
+{
+  "name": "Deebam Afromart",
+  "description": "A premium full-stack online African grocery store based in the UK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

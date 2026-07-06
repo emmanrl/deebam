@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --color-earth-green-50: #f2f7f4;
+  --color-earth-green-100: #e1ede6;
+  --color-earth-green-200: #c4dcce;
+  --color-earth-green-500: #1b4931; /* Deep Earth Green primary */
+  --color-earth-green-600: #123422; /* Forest shade */
+  --color-earth-green-700: #0a2115;
+  
+  --color-warm-gold-50: #fefcf3;
+  --color-warm-gold-500: #d4af37; /* Warm Gold accent */
+  --color-warm-gold-600: #b89327;
+  
+  --color-terracotta-500: #cc6644; /* Terracotta earthy highlight */
+  --color-clay-bg: #FAF8F5; /* Crisp warm cream background */
+}
+
+body {
+  background-color: var(--color-clay-bg);
+  color: #1a1a1a;
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
